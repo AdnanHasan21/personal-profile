@@ -1,0 +1,154 @@
+body{
+    font-family: 'Roboto' ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 780px;      /*for each section*/
+}
+
+.top{  
+    background-image: url("./Images/header-bg.png");        /*for topside background*/
+    background-repeat: no-repeat;       
+    background-size: cover;
+}
+
+.half-top{
+    width: 30%;
+    float: left;
+    margin-top: 7%;     /*for text & image dividing style*/                        
+    padding-top: 4%;
+    margin-left: 8%;
+    padding-left: 5%;
+}
+
+.half-top p{
+    font-size: 18px;        /*for each paragraph*/
+    text-align: justify;
+}
+
+.half-top img{
+    width: 27%;
+}
+.link-button{
+    position: relative;
+    top: 20px;
+    text-decoration: none;
+    border-radius: 5px;     
+    padding: 15px 20px;
+    background-image: linear-gradient(90deg, #ED586E, #F494B4);     /*for each link button*/
+    color: white;
+    font-size: 700;
+}
+
+.half-top img{
+    width: 100%;        /*for specifying width of the images*/
+}
+
+.adnanhead{
+    font-size: 30px;
+    color: #ED586E;     /*for styling 2nd heading of topside*/
+}
+
+.biography{
+    background-image: url("./Images/biography-bg.png");     /*for biography background*/
+    background-repeat: no-repeat;       
+}
+
+.worktitle{
+    font-size: 20px;
+    color: #ED586E;     /*for "my latest work" text style*/ 
+    text-align: center;
+    position: relative;
+    top: 80px;        
+}
+
+.half-top-img{
+    width: 25.5%;
+    float: left;
+    position: relative;     /*for "my latest work" image style*/ 
+    top: 150px;
+    margin-left: 6%;   
+}
+
+.work-img::after{
+    content: "";
+    clear: both;        /*for clearing float*/
+    display: table;
+}
+
+.work{
+    position: relative;
+    background-image: url("./Images/latest-work-bg.png");       /*latest work background*/
+    background-repeat: no-repeat;
+}
+
+.client{
+    text-align: center;     /*total client text alignment*/
+}
+
+.bruce{
+    position: relative;
+    top: 20px;
+    font-weight: bold;      /*bruce styling*/
+    font-size: 18px;
+}
+
+.founder{
+    position: relative;
+    top: 10px;
+    font-weight: lighter;       /*founder & ceo styling*/
+    font-size: 13px;
+    color: gray;
+}
+
+.para1{
+    position: relative;     /*client para styling*/
+    top: 20px;
+    font-size: 18px;
+}
+
+.para2{
+    position: relative;     /*client para styling*/
+    top: 10px;
+    font-size: 18px;
+}
+
+.contact{
+    position: relative;
+    top: 50px;
+    width: 400px;
+    padding: 30px;
+    background-image: linear-gradient(90deg, #ED586E, #F494B4);     /*mail button styling*/
+    margin: 0 auto; 
+    border-radius:5px;   
+    text-align: center; 
+}
+
+.contact-button{
+    text-decoration: none;      /*mail button styling*/
+    color: white;
+}
+
+.mail{
+    position: relative;     /*mail button text styling*/
+    top: 10px;
+    font-size: 18px;
+}
+
+.message{
+    font-size: 12px;         /*mail button text styling*/
+}
+
+.footer-bg{
+    background-image: url("./Images/footer-bg.png");        /*footer background image*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer p{
+    text-align: center;     /*footer*/
+    color: gray;
+}
